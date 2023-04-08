@@ -128,6 +128,10 @@ type: application
 
 version: 0.1.2
 appVersion: "1.19.0"
+```
+
+- Смотрим шаблон
+```bash
 root@ansibleserv:~/helm/40-helm/01-templating/charts# helm template 01-simple
 ---
 # Source: hard/templates/service.yaml
